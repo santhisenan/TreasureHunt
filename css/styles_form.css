@@ -1,0 +1,92 @@
+body{
+	background-color:#660033
+
+}
+
+.naver{
+	font-size: 32px;
+	text-align: center;
+	color: white;
+	border-bottom: solid black thin;
+	font-weight: 300;
+	border:0px;
+}
+
+.section-one{
+	background-color: transparent;
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
+}
+.section-one span{
+	color: #660033;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.input-login{
+	width:300px;
+	overflow:hidden;
+
+}
+input{
+	width:100%;
+	background-color: transparent;
+	color: white;
+	border-radius:5px;	
+	font-size: 18px;
+	border: 2px solid #ffffe6;
+	padding: 5px;	
+	font-weight:200;
+
+
+}
+.login-head{
+	color: white;
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight:200;	 
+}
+
+.submit-btn{
+	width:150px;
+	padding-left:auto;
+	padding-right: auto;
+	font-size: 18px;
+	color: white;
+	background-color: transparent;
+	border-radius: 20px;
+	border: 2px solid #FFFFFF;
+	font-weight:200;
+
+}
+.submit-btn.outline{
+	background: none;
+	padding:12px 22px;
+
+}
+.btn-primary.outline {
+	border: 2px solid #FFFFFF;
+	color: #0099cc;
+}
+	
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+	background-color: transparent;
+
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+	background-color: transparent;
+
+}
+.form-container{
+	padding: 0px;
+	margin: 0px;
+}
