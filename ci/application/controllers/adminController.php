@@ -44,9 +44,9 @@ class AdminController extends CI_Controller{
 		}
 	}
 	public function logout(){
-		$sess_array = array(username =>'',logged_in=>FLASE);
+		$sess_array = array('username' =>'','logged_in'=>FALSE);
 		$this->session->unset_userdata('logged_in', $sess_array);
-		$this->load->view('loginView');
+		$this->load->view('loggedOut');
 	}
 }
 
