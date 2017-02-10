@@ -11,6 +11,11 @@ body{
 	font-weight: 300;
 	border:0px;
 }
+.naver a{
+	font-size: 16px;
+	color: white;
+	font-weight: 200;
+}
 
 .section-one{
 	background-color: transparent;

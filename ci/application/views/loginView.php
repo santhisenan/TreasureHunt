@@ -2,14 +2,17 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Drihti Treasure Hunt</title>
-		<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="../../css/styles_form.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles_form.css">
 	</head>
+	
+	
 	<body>
 		<nav class="navbar .navbar-fixed-top naver">
 		<div class="container-fluid">
 			<span>Treasure Hunt</span>
 		</div>
+		<div><a href="adminController">Admin</a></div>
 		</nav>
 		<div class="jumbotron section-one">
 			<span>Sample Heading</span>
@@ -23,7 +26,7 @@
 					<div class="">
 					<span class="login-head">Login</span>
 					<div>
-						<form action="">
+						<form action="loginController/loginValidate" >
 							<div class = "form-group ">
 								<input class = "input-login" type="text" name="teamName" placeholder="Team Name">
 							</div>
