@@ -23,10 +23,10 @@
 		<div class="row form-container">
 			<div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
 				<div class="row ">
-					<div class="">
+					<div >
 					<span class="login-head">Login</span>
 					<div>
-						<form action="loginController/loginValidate" >
+						<form action="loginController/loginValidate" method="POST">
 							<div class = "form-group ">
 								<input class = "input-login" type="text" name="teamName" placeholder="Team Name">
 							</div>

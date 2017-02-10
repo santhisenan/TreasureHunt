@@ -1,10 +1,10 @@
 <?php 
 class LoginModel extends CI_Model{
-	public function loginAuth(){
-		$this->db->select('username , password');
+	public function loginAuth($data){
+		$this->db->select('team , password ');
 		$this->db->from('challenges');
-		$this->db->where('username',$username);
-		$this->db->where('password',$password);
+		$this->db->where('team',$data['username']);
+		$this->db->where('password',$data['password']);
 		$this->db->limit(1);
 
 		$query = $this->db->get();

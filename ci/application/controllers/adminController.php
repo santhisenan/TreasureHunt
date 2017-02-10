@@ -10,18 +10,18 @@ class AdminController extends CI_Controller{
 	}
 	public function adminLoginValidate(){
 		//validation
-		// $this->form_validation->set_rules('username', 'username', 'required');
-		// $this->form_validation->set_rules('password', 'Passowrd', 'required');
-		// if ($this->form_validation->run() == FALSE) {
-		// 	if(isset($this->session->userdata['logged_in'])){
-		// 		$this->load->view('adminView');
-		// 	}
-		// 	else{
+		$this->form_validation->set_rules('username', 'username', 'required');
+		$this->form_validation->set_rules('password', 'Passowrd', 'required');
+		if ($this->form_validation->run() == FALSE) {
+			if(isset($this->session->userdata['logged_in'])){
+				$this->load->view('adminView');
+			}
+			else{
 
-		// 	$this->load->view('loginErrorView');
-		//     }
-		// } 
-		//else {
+			$this->load->view('loginErrorView');
+		    }
+		} 
+		else {
 			$data = array(
 				'username'=>$this->input->post('username'),
 				'password'=>$this->input->post('password'),
@@ -41,7 +41,12 @@ class AdminController extends CI_Controller{
 			$this->load->view('loginErrorView');
 
 			}
-		//}
+		}
+	}
+	public function logout(){
+		$sess_array = array(username =>'',logged_in=>FLASE);
+		$this->session->unset_userdata('logged_in', $sess_array);
+		$this->load->view('loginView');
 	}
 }
 
