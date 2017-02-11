@@ -22,7 +22,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active "><a href="<?php echo base_url("css/admin_styles.css") ?>">Home</a></li>
+        <li class="active "><a href="<?php echo base_url("main") ?>">Home</a></li>
         <li><a href="#">How to play ?</a></li>
 		<li><a href="<?php echo base_url("adminController") ?>">Admin</a></li>
 		<li><a href="#">Contact</a></li>
