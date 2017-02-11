@@ -14,7 +14,11 @@
 			Next Destination - <?php echo $row->nextlevel; ?>
 	</div>	
 	</div>
-	
+<form action="<?php echo base_url("loginController/logout") ?>">
+<div class = "form-group row">
+<div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3 submit-btn-div">						
+<button class="btn-primary submit-btn" type="submit" name="submit" value="Login">Logout</button>
 </div>
-
+</div>
+</form>
 

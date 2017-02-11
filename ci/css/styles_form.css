@@ -99,7 +99,9 @@ input{
 }
 
 .submit-btn{
+
 	width:100%;
+	max-width: 100px;
 	padding-left:auto;
 	padding-right: auto;
 	font-size: 18px;
