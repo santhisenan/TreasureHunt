@@ -1,14 +1,14 @@
 @font-face{
 		font-family:harrypotter;
-		src:url("../../fonts/harrypotter.ttf");
+		src:url("../fonts/harrypotter.TTF");
 		}
 @font-face{
 		font-family:hptext;
-		src:url("../../fonts/hptext.ttf");
+		src:url("../fonts/hptext.ttf");
 		}
 @font-face{
 		font-family:advent;
-		src:url("../../fonts/advent.ttf");
+		src:url("../fonts/advent.ttf");
 		}
 body{
 	background-color:#210002;
