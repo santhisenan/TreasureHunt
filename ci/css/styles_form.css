@@ -39,6 +39,10 @@ body{
 	background-color: #FFE384!important;
 	color: #210002!important;
 }
+
+.image-container{
+	max-width: 100%;
+}
 .section-one{
 	font-family:advent;
 	font-size:20px;
@@ -47,7 +51,7 @@ body{
 	padding-right: 10px;
 	padding-left: 10px;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  	clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 
 }
 .section-head{
@@ -158,4 +162,42 @@ input{
 
 .submit-btn-div{
 	padding: 0px;
+}
+
+.clue-container{
+	width: 100%;
+
+}
+
+.clue-head{
+	color: #000000;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: harrypotter;
+}
+
+.clue-container{
+	font-family:advent;
+	font-size:20px;
+	font-weight:400!important;
+	background-color: #FFAD42;
+	padding-right: 10px;
+	padding-left: 10px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.dest-container{
+	background-color: transparent;
+
+}
+
+.dest-head{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: harrypotter;
+
+
+	
 }
