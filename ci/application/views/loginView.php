@@ -9,13 +9,27 @@
 	
 	
 	<body>
-		<nav class="navbar .navbar-fixed-top naver">
-			
-		<div class="container-fluid">
-			<span>Treasure Hunt</span>
-		</div>
-		<div><a href="adminController">Admin</a></div>
-		</nav>
+<nav class="navbar naver">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Drishti Treasure Hunt</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="/main">Home</a></li>
+        <li><a href="#">How to play ?</a></li>
+		<li><a href="#">Admin</a></li>
+		<li><a href="#">Contact</a></li>
+		</ul>
+    </div>
+  </div>
+</nav>
+
 		<div class="jumbotron section-one">
 			<span class="section-head">Sample Heading</span>
 			<br/>
@@ -51,6 +65,8 @@
 
 	</body>
 </html>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 
 
 

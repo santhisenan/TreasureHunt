@@ -25,7 +25,9 @@ body{
 	color: white;
 	font-weight: 200;
 }
-
+.icon-bar{
+	background-color: white;
+}
 .section-one{
 	font-family: harrypotter;
 	font-size:16px;
