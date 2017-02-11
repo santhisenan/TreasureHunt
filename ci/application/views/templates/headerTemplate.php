@@ -2,9 +2,9 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Drihti Treasure Hunt</title>
-		<link rel="stylesheet" href="<?php echo base_url("bootstrap/css/bootstrap.min.css") ?>">
-    <link rel="stylesheet" href="<?php echo base_url("css/styles_form.css") ?>">
-    <link rel="stylesheet" href="<?php echo base_url("css/admin_styles.css") ?>">
+		<link rel="stylesheet" href="<?php echo base_url("../bootstrap/css/bootstrap.min.css") ?>">
+    <link rel="stylesheet" href="<?php echo base_url("../css/styles_form.css") ?>">
+    <link rel="stylesheet" href="<?php echo base_url("../css/admin_styles.css") ?>">
 
 	</head>
 	

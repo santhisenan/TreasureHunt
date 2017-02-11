@@ -10,7 +10,10 @@
 				<div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
 					<div class="row ">
 						<div>
-						<span class="login-head">Login</span>
+						<div class="login-head-container">
+						<div class="login-head">Login</div>
+						</div>
+						
 						<div class="login-form-container-inner">
 							<form action="loginController/loginValidate" method="POST">
 								<div class = "form-group ">

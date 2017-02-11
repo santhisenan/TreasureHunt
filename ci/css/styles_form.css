@@ -1,14 +1,14 @@
 @font-face{
 		font-family:harrypotter;
-		src:url("../fonts/harrypotter.ttf");
+		src:url("../../fonts/harrypotter.ttf");
 		}
 @font-face{
 		font-family:hptext;
-		src:url("../fonts/hptext.ttf");
+		src:url("../../fonts/hptext.ttf");
 		}
 @font-face{
 		font-family:advent;
-		src:url("../fonts/advent.ttf");
+		src:url("../../fonts/advent.ttf");
 		}
 body{
 	background-color:#210002;
@@ -79,12 +79,18 @@ input{
 
 
 }
+
+.login-head-container{
+	width:100%;
+}
 .login-head{
 	color: white;
 	font-size: 24px;
 	margin-bottom: 20px;
 	font-weight:200;
 	font-family: harrypotter;
+/*	display:inline-block;
+*/	margin:0 auto;
 
 }
 
