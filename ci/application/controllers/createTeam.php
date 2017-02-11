@@ -17,7 +17,7 @@ class CreateTeam extends CI_Controller{
 				'nextlevel'=>$this->input->post('nextLevel'),
 				);
 		$this->adminModel->insertTeam($data);
-
+		$this->load->view("adminView");
 	}
 }
 

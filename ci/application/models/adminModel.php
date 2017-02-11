@@ -19,7 +19,8 @@ class AdminModel extends CI_Model{
 
 	public function insertTeam($data){
 		$this->db->insert('challenges',$data);
-		redirect('admin','refresh');
+		redirect($_SERVER['HTTP_REFERER']);
+
 	}
  
 }
