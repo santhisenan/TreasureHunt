@@ -5,3 +5,24 @@
 .panel-row{
 		margin: 0px;
 }
+.form-control{
+	margin-top: 10px;
+}
+.form-container{
+	padding: 15px;
+	border:solid 2px white;
+
+}
+
+.row{
+	margin: 0px;
+}
+.submit-btn{
+	margin-top:15px; 
+}
+
+.form-container span {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+}

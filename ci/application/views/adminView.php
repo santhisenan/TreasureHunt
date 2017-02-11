@@ -15,10 +15,10 @@
 		</nav>
 
 		<div class="row panel-row">
-		<div class="col-md-2 col-md-offset-3">
+		<div class="col-md-2 col-md-offset-2">
 			<div class="panel panel-default">
 				<div class="panel-heading"><span class="glyphicon glyphicon-plus"></span></div>
-				<div class="panel-body"><a href="#">add a new team</a></div>
+				<div class="panel-body"><a href="../createTeam">add a new team</a></div>
 			</div>
 		</div>
 		<div class="col-md-2">

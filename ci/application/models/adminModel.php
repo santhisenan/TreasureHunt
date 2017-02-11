@@ -13,10 +13,13 @@ class AdminModel extends CI_Model{
 			return $query->result();
 		}
 		else{
-						echo $data['username'];
-
 			return false;
 		}
+	}
+
+	public function insertTeam($data){
+		$this->db->insert('challenges',$data);
+		redirect('admin','refresh');
 	}
  
 }
