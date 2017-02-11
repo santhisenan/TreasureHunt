@@ -39,7 +39,11 @@ class LoginController extends CI_Controller {
 					'username'=>$data['username'],
 					'logged_in'=>TRUE );
 				$this->session->set_userdata($session_data);
-				$this->load->view('nextClue');
+				$name = $session_data['username'];
+				$data['row'] = $this->loginModel->getTeam($name);
+				$this->load->view('templates/headerTemplate.php');
+				$this->load->view('nextClue',$data);
+				$this->load->view('templates/footerTemplate.php');
 			}
 			else{
 			$this->load->view('loginErrorView');

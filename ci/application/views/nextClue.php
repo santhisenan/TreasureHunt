@@ -11,8 +11,7 @@
 	<div class="dest-container jumbotron">
 		
 		<span class="dest-head">
-			Next Destination - next destination...
-		</span>
+			Next Destination - <?php echo $row->nextlevel; ?>
 	</div>	
 	</div>
 	

@@ -18,6 +18,14 @@ class LoginModel extends CI_Model{
 
 
 	}
+	public function getTeam($team){
+		$this->db->select('*');
+		$this->db->from("challenges");
+		$this->db->where('team',$team);
+		$next = $this->db->get();
+		return $next->row();
+
+	}
 }
 
  ?>

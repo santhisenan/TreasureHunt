@@ -23,7 +23,10 @@ class AdminController extends CI_Controller{
 		if ($this->form_validation->run() == FALSE) {
 			$this->clear_cache();
 			if(isset($this->session->userdata['logged_in'])){
-				$this->load->view('nextClue');
+				$data['team'] = $this->session->userdata['username'];
+				$this->load->view('templates/headerTemplate.php');
+				$this->load->view('nextClue',$data);
+				$this->load->view('templates/footerTemplate.php');
 			}
 			else{
 			$this->load->view('loginErrorView');
@@ -42,13 +45,12 @@ class AdminController extends CI_Controller{
 					'username'=>$data['username'],
 					'logged_in'=>TRUE );
 				$this->session->set_userdata($session_data);
+				
 				$this->load->view('templates/headerTemplate.php');
 				$this->load->view('adminView');
 				$this->load->view('templates/footerTemplate.php');
 			}
 			else{
-			echo $data['username'];
-
 			$this->load->view('loginErrorView');
 
 			}

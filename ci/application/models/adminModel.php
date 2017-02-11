@@ -43,6 +43,8 @@ class AdminModel extends CI_Model{
 
         return $rows;
 	}
+
+	
  
 }
  ?>
