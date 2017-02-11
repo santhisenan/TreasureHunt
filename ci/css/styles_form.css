@@ -1,9 +1,18 @@
+@font-face{
+		font-family:harrypotter;
+		src:url("../fonts/harrypotter.ttf");
+		}
+@font-face{
+		font-family:hptext;
+		src:url("../fonts/hptext.ttf");
+		}
 body{
-	background-color:#660033
+	background-color:#210002;
 
 }
 
 .naver{
+	font-family: harrypotter; 
 	font-size: 32px;
 	text-align: center;
 	color: white;
@@ -18,18 +27,20 @@ body{
 }
 
 .section-one{
-	background-color: transparent;
-	background-color: white;
+	font-family: harrypotter;
+	font-size:16px;
+	background-color: #FFAD42;
 	padding-right: 10px;
 	padding-left: 10px;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 
 }
-.section-one span{
-	color: #660033;
-	font-size: 16px;
+.section-head{
+	color: #000000;
+	font-size: 18px;
 	font-weight: 300;
+	font-family: harrypotter;
 }
 
 .input-login{
@@ -53,7 +64,9 @@ input{
 	color: white;
 	font-size: 24px;
 	margin-bottom: 20px;
-	font-weight:200;	 
+	font-weight:200;
+	font-family: harrypotter;
+
 }
 
 .submit-btn{
