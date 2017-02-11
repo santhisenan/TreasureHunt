@@ -24,7 +24,7 @@
 		<div class="col-md-2">
 			<div class="panel panel-default">
 				<div class="panel-heading"><span class="glyphicon glyphicon-th-list"></span></div>
-				<div class="panel-body"><a href="#">List all teams</a></div>
+				<div class="panel-body"><a href="../listAllTeams/show">List all teams</a></div>
 			</div>
 		</div>
 		<div class="col-md-2">

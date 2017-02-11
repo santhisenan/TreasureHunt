@@ -20,7 +20,28 @@ class AdminModel extends CI_Model{
 	public function insertTeam($data){
 		$this->db->insert('challenges',$data);
 		redirect($_SERVER['HTTP_REFERER']);
+	}
 
+	public function listAll(){
+		$this->db->select("*");
+		$this->db->from('challenges');
+		
+		$query = $this->db->get();
+		$rows = array();
+		$i=0;
+
+
+		foreach ($query->result() as $row)
+            {
+            	$rows[$i]['id'] = $row->id;
+                $rows[$i]['team'] = $row->team; 
+                $rows[$i]['password'] = $row->password; 
+                $rows[$i]['clue'] = $row->clue; 
+                $rows[$i]['nextlevel'] = $row->nextlevel;
+                $i+=1; 
+            }   
+
+        return $rows;
 	}
  
 }
