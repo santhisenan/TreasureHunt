@@ -1,20 +1,4 @@
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Admin</title>
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/styles_form.css">
-	</head>
-	
-	
-	<body>
-		<nav class="navbar .navbar-fixed-top naver">
-		<div class="container-fluid">
-			<span>Treasure Hunt Admin</span>
-		</div>
-		</nav>
-		
-		<div class="row form-container">
+<div class="row form-container">
 			<div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
 				<div class="row ">
 					<div class="">
@@ -39,9 +23,6 @@
 		</div>
 		</div>
 
-
-	</body>
-</html>
 
 
 

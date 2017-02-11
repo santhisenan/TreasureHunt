@@ -1,20 +1,4 @@
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Admin</title>
-		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/admin_styles.css">
-		<link rel="stylesheet" href="../css/styles_form.css">
-	</head>
-	<body>
-		<nav class="navbar .navbar-fixed-top naver">
-		<div class="container-fluid">
-			<span>Treasure Hunt Admin</span>
-		</div>
-		<div><a href="adminController">Admin</a></div>
-		</nav>
-
-		<div class="row panel-row">
+<div class="row panel-row">
 		<div class="col-md-2 col-md-offset-2">
 			<div class="panel panel-default">
 				<div class="panel-heading"><span class="glyphicon glyphicon-plus"></span></div>
@@ -38,5 +22,3 @@
 		
 		
 		</div>
-	</body>
-</html>

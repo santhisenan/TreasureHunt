@@ -8,8 +8,10 @@ class ListAllTeams extends CI_Controller{
 	}
 	public function show(){
 		$data['rows'] = $this->adminModel->listAll();
+		$this->load->view('templates/headerTemplate.php');
 		$this->load->view('listAllTeamsView',$data);
-	}
+		$this->load->view('templates/footerTemplate.php');
+}
 
 
 }

@@ -5,10 +5,10 @@
 .panel-row{
 		margin: 0px;
 }
-.form-control{
+.add-new-team-form{
 	margin-top: 10px;
 }
-.form-container{
+.add-new-team-form-container{
 	padding: 15px;
 	border:solid 2px white;
 
@@ -21,7 +21,7 @@
 	margin-top:15px; 
 }
 
-.form-container span {
+.login-form-container span {
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 300;

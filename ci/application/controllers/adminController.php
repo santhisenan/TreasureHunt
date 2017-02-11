@@ -6,7 +6,9 @@ class AdminController extends CI_Controller{
 		$this->load->model('adminModel');
 	}
 	public function index(){
+		$this->load->view('templates/headerTemplate.php');
 		$this->load->view('adminLoginView');
+		$this->load->view('templates/footerTemplate.php');
 	}
 	public function adminLoginValidate(){
 		//validation
@@ -14,7 +16,9 @@ class AdminController extends CI_Controller{
 		$this->form_validation->set_rules('password', 'Passowrd', 'required');
 		if ($this->form_validation->run() == FALSE) {
 			if(isset($this->session->userdata['logged_in'])){
+				$this->load->view('templates/headerTemplate.php');
 				$this->load->view('adminView');
+				$this->load->view('templates/footerTemplate.php');
 			}
 			else{
 
@@ -33,7 +37,9 @@ class AdminController extends CI_Controller{
 					'username'=>$data['username'],
 					'logged_in'=>TRUE );
 				$this->session->set_userdata($session_data);
+				$this->load->view('templates/headerTemplate.php');
 				$this->load->view('adminView');
+				$this->load->view('templates/footerTemplate.php');
 			}
 			else{
 			echo $data['username'];
