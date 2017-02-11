@@ -27,12 +27,7 @@
 				<div class="panel-body"><a href="../listAllTeams/show">List all teams</a></div>
 			</div>
 		</div>
-		<div class="col-md-2">
-			<div class="panel panel-default">
-				<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span></div>
-				<div class="panel-body"><a href="#">View a team</a></div>
-			</div>
-		</div>
+
 		<div class="col-md-2">
 			<div class="panel panel-default">
 				<div class="panel-heading"><span class="glyphicon glyphicon-off"></span></div>
