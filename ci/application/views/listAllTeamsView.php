@@ -30,7 +30,8 @@
 			<td><?php echo $row['clue'];?></td>
 			<td><?php echo $row['nextlevel'];?></td>
 		</tr>
-	<?php } ?>    
+	<?php } 
+	?>    
     </table>
     </div>
 
